@@ -5,7 +5,11 @@ A node.js wrapper for MPlayer on Linux. It's currently focused on sound playing,
 
 ##Usage
 
-First, you need to make a new instance of the module. The constructor of the module can take the path of the file to play. 
+First, install the module with
+
+	npm install node-mplayer
+
+Then, you need to make a new instance of the module. The constructor of the module can take the path of the file to play. 
 
 	var Mplayer = require('node-mplayer); 
     
@@ -90,6 +94,24 @@ Returns the elapsed play time in seconds. It needs a callback.
     });
 
 ##Events
+
+###end
+
+The end event is emitted when the file has ended.
+
+###error
+
+The error event is emitted when an error has ocurred.
+
+##Stability
+
+This module uses the [`readline`](http://www.nodejs.org/api/readline.html) module, which is currently marked unstable. 
+
+This module has been tested on Ubuntu 14.04 LTS with MPlayer 1.1-4.8.
+
+
+
+
 
 
 
