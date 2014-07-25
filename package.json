@@ -1,0 +1,11 @@
+{
+  "name": "node-mplayer",
+  "version": "0.0.1",
+  "description": "Node.js wrapper for mplayer on linux.",
+  "main": "index.js",
+  "scripts": {
+    "test": "test.js"
+  },
+  "author": "Loïc Stankovic",
+  "license": "ISC"
+}
