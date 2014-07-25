@@ -5,7 +5,7 @@ A node.js wrapper for MPlayer on Linux. It's currently focused on sound playing,
 
 ##Usage
 
-First, install the module with
+First, install the module with (assuming you already installed MPlayer)
 
 	npm install node-mplayer
 
