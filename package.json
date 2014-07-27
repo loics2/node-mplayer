@@ -1,6 +1,6 @@
 {
   "name": "node-mplayer",
-  "version": "0.0.1",
+  "version": "0.0.3",
   "description": "Node.js wrapper for mplayer on linux.",
   "main": "./lib/node-mplayer.js",
   "repository": {

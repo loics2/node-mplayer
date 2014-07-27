@@ -11,7 +11,7 @@ First, install the module with (assuming you already installed MPlayer)
 
 Then, you need to make a new instance of the module. The constructor of the module can take the path of the file to play. 
 
-	var Mplayer = require('node-mplayer); 
+	var Mplayer = require('node-mplayer'); 
     
 	var player1 = new Mplayer('/home/node/Music/Kalimba.mp3');
     var player2 = new Mplayer();
