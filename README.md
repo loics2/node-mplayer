@@ -33,6 +33,12 @@ It can take in parameter an object that contains the volume and the number of ti
 This method will stop the played file. 
 
 	player.stop();
+	
+###quit
+
+This Method will close the underlying process
+
+	player.quit();
     
 ###pause
 
@@ -92,6 +98,15 @@ Returns the elapsed play time in seconds. It needs a callback.
 	player.getTimePosition(function(elapsedTime){
     	console.log(elapsedTime);
     });
+
+###getPercentPosition
+
+Return the elapsed time in percent. It need a callback.
+
+	player.getPercentPosition(function(elapsedPercent){
+    	console.log(elapsedPercent);
+    });
+	
 
 ##Events
 
