@@ -37,6 +37,7 @@ This method will stop the played file.
 ###quit
 
 This Method will close the underlying process
+
 	player.quit();
     
 ###pause
