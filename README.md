@@ -114,6 +114,15 @@ Return the elapsed time in percent. It needs a callback.
         console.log(elapsedPercent);
     });
 
+
+### getVolume
+
+Return the current volume. It needs a callback.
+
+    player.getVolume(function(currentVolume){
+        console.log(currentVolume);
+    });
+
 ##Events
 
 ### end
@@ -140,3 +149,4 @@ Here's a list of people who contributed to this project :
 
 * [Maocx](https://github.com/Maocx)
 * [lacrioque](https://github.com/lacrioque)
+* [nkcr](https://github.com/nkcr)
