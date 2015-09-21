@@ -1,7 +1,7 @@
 node-mplayer
 ============
 
-A node.js wrapper for MPlayer on Linux. It's currently focused on sound playing, more options and video playing will come later.
+A node.js wrapper for MPlayer on Linux. Use it to play music on your sound card!
 
 ## Usage
 
