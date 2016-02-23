@@ -14,19 +14,22 @@ Then, you need to make a new instance of the module. The constructor of the modu
     var Mplayer = require('node-mplayer'); 
     
     var player1 = new Mplayer('/home/node/Music/Kalimba.mp3');
-    var player2 = new Mplayer();
+    var player2 = new Mplayer('http://mysite.com/myfile.mp3');
+    var player3 = new Mplayer();
     
 ## Available methods
 
 ###  play
 
 This method will play the file defined when the player object was instanciated or setted with `setFile()`. This method MUST be called before any other. 
-It can take in parameter an object that contains the volume and the number of times to play the file (see `setVolume` and `setLoop`).
+It can take in parameter an object that contains the volume, the number of times to play the file (see `setVolume` and `setLoop`) and an array of additionnal arguments to pass to MPlayer.
 
     player.play();
     player.play({volume: 50});
     player.play({volume: 50,
                 loop: 10});
+    player.play({additionnalArgs: ['-ao alsa:device=hw']});
+
 
 ### checkPlaying
 
