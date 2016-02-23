@@ -138,7 +138,7 @@ The error event is emitted when an error has ocurred.
 
 ## Stability
 
-This module has been tested on Ubuntu 14.04 LTS with MPlayer 1.1-4.8 and on Ubuntu 15.04 with MPlayer2 2.0-728-g2c378c7-4.
+The latest tests of this module were made on Ubuntu 15.10 with MPlayer2 2.0-728-g2c378c7-4build1
 
 ## Contributing
 
