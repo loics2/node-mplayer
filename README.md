@@ -1,6 +1,9 @@
 node-mplayer
 ============
 
+This module is no longer in active developpment! [This module](https://github.com/noodny/mplayer) is much more complete than mine
+------------------------------------------------------------------------------------------------------------------------
+
 A node.js wrapper for MPlayer on Linux. Use it to play music on your sound card!
 
 ## Usage
